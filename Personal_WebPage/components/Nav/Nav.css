@@ -1,13 +1,40 @@
 .Nav_wrapper {
   display: flex;
+  padding: 15px 0;
   color: #808080;
   align-items: center;
-  background-color: #000;
-  padding: 15px 0;
   font-family: sans-serif;
   justify-content: space-around;
 }
 
 .Nav_Text span {
-  margin: 10px 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.Nav_Text:nth-child(1) span {
+  color: #000;
+}
+
+.Nav_Text span:nth-child(4) {
+  color: #fff;
+  padding: 6px 25px;
+  border-radius: 15px;
+  background-color: #27844f;
+}
+
+.Nav_Text span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: all ease-in 0.5s;
+}
+
+.Nav_Text span:hover::before {
+  width: 100%;
+  transition: all ease-in 0.5s;
 }
