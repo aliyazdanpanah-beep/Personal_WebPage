@@ -1,17 +1,17 @@
 import "./Nav.css";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <div className="Nav_wrapper">
       <div className="Nav_Text">
-        <span>Conect Me</span>
+        <span> {props.data.conectMe} </span>
       </div>
 
       <div className="Nav_Text">
-        <span>Home</span>
-        <span>About</span>
-        <span>Progect</span>
-        <span>Linkdin</span>
+        <span> {props.data.home} </span>
+        <span> {props.data.about} </span>
+        <span> {props.data.project} </span>
+        <span> {props.data.linkdin} </span>
       </div>
     </div>
   );
