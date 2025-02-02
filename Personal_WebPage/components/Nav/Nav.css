@@ -1,0 +1,13 @@
+.Nav_wrapper {
+  display: flex;
+  color: #808080;
+  align-items: center;
+  background-color: #000;
+  padding: 15px 0;
+  font-family: sans-serif;
+  justify-content: space-around;
+}
+
+.Nav_Text span {
+  margin: 10px 10px;
+}

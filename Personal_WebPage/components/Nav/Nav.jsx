@@ -3,11 +3,11 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div className="Nav_wrapper">
-      <div>
+      <div className="Nav_Text">
         <span>Conect Me</span>
       </div>
 
-      <div>
+      <div className="Nav_Text">
         <span>Home</span>
         <span>About</span>
         <span>Progect</span>
