@@ -1,9 +1,10 @@
-import Home from "../page/Home/Home"
 import "./App.css"
+import HomE from "./Page/Home/Home"
+// import Home from "./Page/Home/Home"
 
 const App = () => {
   return (
-    <Home />
+    <HomE />
   )
 }
 

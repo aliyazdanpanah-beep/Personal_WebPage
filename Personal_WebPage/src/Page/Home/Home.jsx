@@ -1,9 +1,9 @@
-import Nav from "../../components/Nav/Nav";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./Home.css";
+import Nav from "../../component/Nav/Nav";
 
-const Home = () => {
+const HomE = () => {
   const [nav, setNav] = useState([]);
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomE;
