@@ -74,40 +74,53 @@
   }
 } */
 
-
 /* Better code from DeapSkeak */
 
 .Section1_Wrapper {
-     display: flex;
-     flex-direction: column; /* پیش‌فرض: چیدمان عمودی برای موبایل */
-     align-items: center;
- }
- 
- .imageURL {
-     width: 100%; /* پیش‌فرض: تصویر کل عرض رو بگیره */
-     height: auto;
- }
- 
- .sec1_text {
-     text-align: center;
-     margin-top: 20px;
- }
- 
- /* استایل‌های خاص برای کامپیوتر (صفحه‌های بزرگ) */
- @media (min-width: 769px) {
-     .Section1_Wrapper {
-         flex-direction: row; /* چیدمان افقی برای کامپیوتر */
-         align-items: flex-start; /* متن‌ها از بالا شروع بشن */
-         gap: 20px; /* فاصله بین عکس و متن */
-     }
- 
-     .imageURL {
-         width: 50%; /* تصویر نصف عرض صفحه رو بگیره */
-     }
- 
-     .sec1_text {
-         width: 50%; /* متن‌ها نصف عرض صفحه رو بگیرن */
-         text-align: left; /* متن‌ها چپ‌چین بشن */
-         margin-top: 0; /* فاصله بالای متن رو حذف کن */
-     }
- }
+  display: flex;
+  padding: 60px 20px;
+  flex-direction: column; /* پیش‌فرض: چیدمان عمودی برای موبایل */
+  align-items: center;
+}
+
+.imageURL {
+  width: 100%; /* پیش‌فرض: تصویر کل عرض رو بگیره */
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.sec1_text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sec1_text p:nth-child(1) {
+  color: #808080;
+}
+
+.sec1_text p:nth-child(2) {
+  margin: 20px 0;
+}
+
+.sec1_text p:nth-child(3) {
+  color: #808080;
+}
+
+/* استایل‌های خاص برای کامپیوتر (صفحه‌های بزرگ) */
+@media (min-width: 769px) {
+  .Section1_Wrapper {
+    flex-direction: row; /* چیدمان افقی برای کامپیوتر */
+    align-items: flex-start; /* متن‌ها از بالا شروع بشن */
+    gap: 20px; /* فاصله بین عکس و متن */
+  }
+
+  .imageURL {
+    width: 50%; /* تصویر نصف عرض صفحه رو بگیره */
+  }
+
+  .sec1_text {
+    width: 50%; /* متن‌ها نصف عرض صفحه رو بگیرن */
+    text-align: left; /* متن‌ها چپ‌چین بشن */
+    margin-top: 0; /* فاصله بالای متن رو حذف کن */
+  }
+}
