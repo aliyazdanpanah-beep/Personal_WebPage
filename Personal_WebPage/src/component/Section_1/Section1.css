@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.imageURL {
+  width: 45%;
+  height: 100%;
+}
