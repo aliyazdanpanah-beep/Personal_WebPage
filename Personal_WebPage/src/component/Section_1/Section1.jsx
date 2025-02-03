@@ -6,7 +6,9 @@ const Section1 = (props) => {
       <img src={props.data.imageURL} className="imageURL" />
 
       <div className="sec1_text">
-          
+          <p> {props.data.text1} </p>
+          <p> {props.data.text2} </p>
+          <p> {props.data.text3} </p>
       </div>
     </div>
   );
