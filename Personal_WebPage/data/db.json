@@ -11,5 +11,15 @@
         "linkdin": "Linkdin"
       }
     ]
+  },
+
+  "Section1": {
+    "statos": true,
+    "data": [
+      {
+        "id": 2,
+        "imageURL": "https://static.vecteezy.com/system/resources/previews/015/511/714/non_2x/web-developer-doing-codding-vector.jpg"
+      }
+    ]
   }
 }
