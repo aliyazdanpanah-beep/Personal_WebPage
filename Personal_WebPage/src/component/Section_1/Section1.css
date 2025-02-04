@@ -7,7 +7,7 @@
 
 .Section1_Wrapper {
   display: flex;
-  padding: 60px 20px;
+  padding: 100px 20px;
   flex-direction: column; /* پیش‌فرض: چیدمان عمودی برای موبایل */
   align-items: center;
 }
@@ -21,18 +21,24 @@
 .sec1_text {
   text-align: center;
   margin-top: 20px;
+  text-shadow: 1px 1px 10px #fff;
+}
+
+p {
+  font-size: 17px;
 }
 
 .sec1_text p:nth-child(1) {
-  color: #808080;
+  color: #fff;
 }
 
 .sec1_text p:nth-child(2) {
-  margin: 20px 0;
+  margin: 50px 0;
+  color: #fafafa;
 }
 
 .sec1_text p:nth-child(3) {
-  color: #808080;
+  color: #fff;
 }
 
 /* استایل‌های خاص برای کامپیوتر (صفحه‌های بزرگ) */
