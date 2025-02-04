@@ -14,14 +14,15 @@
 
 .imageURL {
   width: 100%; /* پیش‌فرض: تصویر کل عرض رو بگیره */
-  height: auto;
-  mix-blend-mode: multiply;
+  height: 60vh;
+  margin-bottom: 50px;
+  /* mix-blend-mode: multiply; */
 }
 
 .sec1_text {
   text-align: center;
   margin-top: 20px;
-  text-shadow: 1px 1px 10px #fff;
+  text-shadow: 1px 1px 100px #fff;
 }
 
 p {

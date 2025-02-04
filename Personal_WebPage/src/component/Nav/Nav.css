@@ -3,16 +3,18 @@
   padding: 15px 10px;
   margin: 15px 15px;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
   align-items: center;
   font-family: sans-serif;
   backdrop-filter: blur(10px);
   background-color: #404040;
+  
   justify-content: space-between;
 }
 
 .Nav_Text span {
   margin: 0 5px;
+  cursor: pointer;
   position: relative;
 }
 
@@ -25,7 +27,7 @@
   color: #fff;
   padding: 6px 15px;
   border-radius: 15px;
-  box-shadow: 1px 1px 30px green;
+  box-shadow: 1px 1px 25px green;
   background-color: #27844f;
 }
 
