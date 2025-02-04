@@ -1,41 +1,47 @@
 .Nav_wrapper {
-     display: flex;
-     padding: 15px 10px;
-     color: #808080;
-     align-items: center;
-     font-family: sans-serif;
-     justify-content: space-between;
-   }
-   
-   .Nav_Text span {
-     margin: 0 5px;
-     position: relative;
-   }
-   
-   .Nav_Text:nth-child(1) span {
-     color: #fff;
-     font-size: 17px;
-   }
-   
-   .Nav_Text span:nth-child(4) {
-     color: #fff;
-     padding: 6px 15px;
-     border-radius: 15px;
-     background-color: #27844f;
-   }
-   
-   .Nav_Text span::before {
-     content: "";
-     position: absolute;
-     top: 100%;
-     left: 0;
-     width: 0;
-     height: 1px;
-     background-color: #fff;
-     transition: all ease-in 0.5s;
-   }
-   
-   .Nav_Text span:hover::before {
-     width: 100%;
-     transition: all ease-in 0.5s;
-   }
+  display: flex;
+  padding: 15px 10px;
+  margin: 15px 15px;
+  color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  font-family: sans-serif;
+  backdrop-filter: blur(10px);
+  background-color: #404040;
+  justify-content: space-between;
+}
+
+.Nav_Text span {
+  margin: 0 5px;
+  position: relative;
+}
+
+.Nav_Text:nth-child(1) span {
+  color: #fff;
+  font-size: 17px;
+}
+
+.Nav_Text span:nth-child(4) {
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 30px green;
+  background-color: #27844f;
+}
+
+/* .Nav_Text span::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: all ease-in 0.5s;
+} */
+
+/* .Nav_Text span:hover::before {
+  width: 100%;
+  transition: all ease-in 0.5s;
+} */
+
