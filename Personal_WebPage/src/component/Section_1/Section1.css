@@ -23,7 +23,7 @@
   text-align: center;
   margin-top: 20px;
   overflow-x: hidden;
-  text-shadow: 1px 1px 100px #fff;
+  /* text-shadow: 1px 1px 100px #fff; */
 }
 
 p {
@@ -41,6 +41,7 @@ p {
 
 .sec1_text p:nth-child(3) {
   color: #fff;
+  margin: 20px 0;
 }
 
 .H1 {
@@ -50,9 +51,6 @@ p {
   text-align: center;
 }
 
-.H1 h1 {
-  /* width: 45%; */
-}
 
 /* استایل‌های خاص برای کامپیوتر (صفحه‌های بزرگ) */
 @media (min-width: 769px) {
