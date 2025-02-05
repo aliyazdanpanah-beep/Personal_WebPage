@@ -7,7 +7,7 @@
 
 .Section1_Wrapper {
   display: flex;
-  padding: 100px 30px;
+  padding: 10px 30px;
   flex-direction: column; /* پیش‌فرض: چیدمان عمودی برای موبایل */
   align-items: center;
 }
@@ -41,6 +41,17 @@ p {
 
 .sec1_text p:nth-child(3) {
   color: #fff;
+}
+
+.H1 {
+  width: 100%;
+  color: #fff;
+  margin: 80px 0;
+  text-align: center;
+}
+
+.H1 h1 {
+  /* width: 45%; */
 }
 
 /* استایل‌های خاص برای کامپیوتر (صفحه‌های بزرگ) */

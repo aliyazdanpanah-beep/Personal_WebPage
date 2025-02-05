@@ -10,7 +10,10 @@ const Section1 = (props) => {
     });
   }, []);
   return (
-    <div>
+    <div className="Section1_Mine_wrapper">
+      <div className="H1">
+        <h1>Welcome to My Personal Website</h1>
+      </div>
       <div className="Section1_Wrapper">
         <img
           src={props.data.imageURL}
