@@ -35,6 +35,12 @@
         "id": 3,
         "imageURL": "", 
         "text": "Admin Panel"
+      },
+
+      {
+        "id": 4,
+        "imageURL": "",
+        "text": "Admin Panel 2"
       }
     ]
   }

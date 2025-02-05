@@ -37,7 +37,7 @@ const HomE = () => {
       ))}
 
       {proj.map((PROJ) => (
-        <Project data = {PROJ} key={PROJ.id} />
+        <Project data = {PROJ} key={PROJ.id} className="Items" />
       ))}
     </div>
   );

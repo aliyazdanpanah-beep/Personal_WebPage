@@ -1,9 +1,14 @@
 import "./Section_2.css"
 
-const Project = () => {
+const Project = (props) => {
   return (
     <div className="Project_Wrapper">
-      <p>This is Project</p>
+      <div className="proj_item"> {props.data.text} </div>
+      {/* <div className="proj_item"> {props.data.text} </div>
+      <div className="proj_item"> {props.data.text} </div>
+      <div className="proj_item"> {props.data.text} </div>
+      <div className="proj_item"> {props.data.text} </div>
+      <div className="proj_item"> {props.data.text} </div> */}
     </div>
   )
 }
