@@ -8,7 +8,6 @@ import Project from "../../component/Section_2/Section_2";
 const HomE = () => {
   const [nav, setNav] = useState([]);
   const [sec1, setSec1] = useState([]);
-  const [proj, setProj] = useState([]);
 
   useEffect(() => {
     // API call
@@ -18,10 +17,6 @@ const HomE = () => {
 
       axios.get("http://localhost:8000/Section1").then((res) => {
         setSec1(res.data.data);
-      });
-
-      axios.get("http://localhost:8000/project1").then((rees) => {
-        setProj(rees.data.data);
       });
     });
   }, []);
@@ -34,10 +29,6 @@ const HomE = () => {
 
       {sec1.map((SEC1) => (
         <Section1 data={SEC1} key={SEC1.id} />
-      ))}
-
-      {proj.map((PROJ) => (
-        <Project data={PROJ} key={PROJ.id} className="Items" />
       ))}
     </div>
   );

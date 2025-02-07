@@ -16,7 +16,7 @@ const Section1 = (props) => {
       </div>
       <div className="Section1_Wrapper">
         <img
-          src={props.data.imageURL}
+          src={props.data.imagesrc}
           className="imageURL"
           data-aos="fade-down-right"
         />
