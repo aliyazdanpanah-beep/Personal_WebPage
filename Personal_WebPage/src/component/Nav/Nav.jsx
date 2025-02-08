@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Nav.css";
 
 const Nav = (props) => {
@@ -8,8 +9,11 @@ const Nav = (props) => {
       </div>
 
       <div className="Nav_Text">
-        <span> {props.data.home} </span>
-        <span> {props.data.about} </span>
+        {/* <span> {props.data.home} </span> */}
+        {/* <span> {props.data.about} </span> */}
+
+        <Link className="LINK" to={"/"}> {props.data.home} </Link>
+        <Link className="LINK" to={"/about"}> {props.data.about} </Link>
         <span> {props.data.project} </span>
         <span> {props.data.linkdin} </span>
       </div>

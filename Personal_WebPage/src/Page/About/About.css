@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.AboutPage h2 {
+  color: #fff;
+  text-align: center;
+  margin: 150px 0;
+}

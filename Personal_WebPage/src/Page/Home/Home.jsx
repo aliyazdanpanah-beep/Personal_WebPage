@@ -4,6 +4,7 @@ import "./Home.css";
 import Nav from "../../component/Nav/Nav";
 import Section1 from "../../component/Section_1/Section1";
 import Project from "../../component/Section_2/Section_2";
+import { Link } from "react-router-dom"
 
 const HomE = () => {
   const [nav, setNav] = useState([]);
